@@ -74,4 +74,9 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
  6. Destory the all resources 
   ```   
     terraform destroy -auto-approve    
- ```   
+ ```
+## SreenShots
+![Screenshot 2024-07-30 115637](https://github.com/user-attachments/assets/e0f7209b-89b0-4860-a3aa-43b40177e354)
+![Screenshot 2024-07-18 005238](https://github.com/user-attachments/assets/d3ad58c0-1d5b-4f91-8345-047f7ae28e2a)
+![Screenshot 2024-07-17 223638](https://github.com/user-attachments/assets/2a46ca26-800b-47da-a243-b3c9aa36a04d)
+
