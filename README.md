@@ -19,6 +19,10 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
 
 
 ## Architecture Diagram 
+![diagram-export-8-14-2024-1_42_30-PM](https://github.com/user-attachments/assets/2ebc15f7-f357-4c23-976c-b07aa650f1a4)
+
+
+
 ## Features
 
 - convert project into modules that increase collaboration within team and encourage the DRY (Don't Repeat Yourself ) principle   
