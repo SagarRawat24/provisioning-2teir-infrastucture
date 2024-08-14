@@ -48,7 +48,10 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
 - Route53
 - Security Groups 
 - Aurora Database ( Postgresql)
-- Custom Enpoints
+- Custom Endpoints
+- elasticip
+- Nat Gateway
+- Internet gateway
 ## Deployment
  1. Clone the repository:
    
