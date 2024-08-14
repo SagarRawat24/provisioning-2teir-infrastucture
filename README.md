@@ -49,3 +49,29 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
 - Security Groups 
 - Aurora Database ( Postgresql)
 - Custom Enpoints
+## Deployment
+ 1. Clone the repository:
+   
+```bash
+   https://github.com/SagarRawat24/provisioning-2teir-infrastucture-.git
+ ```
+
+ 2. Make changes as per your needs.
+
+ 3. Initialize Terraform and apply the configuration:
+ ```   
+    terraform init    
+ ```    
+ 4. Validate the files 
+ ```   
+    terraform validate     
+ ```
+ 5. Review the changes and confirm then apply the achanges 
+ ```   
+    terraform apply -auto-approve    
+ ```        
+
+ 6. Destory the all resources 
+  ```   
+    terraform destroy -auto-approve    
+ ```   
