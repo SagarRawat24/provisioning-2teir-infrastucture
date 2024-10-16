@@ -29,7 +29,9 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
 -  Secure data or credentials sent between a website and a browser, or between two servers, by encrypting it using SSL certificate
 - Reduce thetime & manual Provisioning and increase collaboration within teams by using Terraform
 - Aurora PostgreSQL offers a powerful combination of performance, global reach, and cost-effectiveness. It delivers up to 3x the throughput of standard PostgreSQL and operates as a global database spanning multiple AWS Regions, ensuring fast local reads worldwide. Its serverless capability automatically scales resources based on demand, significantly reducing costs by eliminating over-provisioning and idle time.
-- Implement the Database in a private subnet for secure the credentias and data and oly accessible for instance 
+- Implement the Database in a private subnet for secure the credentias and data and oly accessible for instance
+- AWS WAF protects web applications from common exploits like XSS, SQL injection, and DDoS attacks. XSS rules block malicious scripts in user inputs, SQL injection rules prevent unauthorized database queries, and rate-based rules limit traffic to defend against DDoS or brute-force attacks.
+- Implement AWS Fault Injection Simulator (FIS) to perform Chaos Testing by simulating disk fill scenarios, helping to identify how the system behaves under resource exhaustion conditions and improve its resilience.
 
 
 
