@@ -56,6 +56,8 @@ This project ensure  us to deploy a highly available, scalable, and secure 2-tie
 - elasticip
 - Nat Gateway
 - Internet gateway
+- WAF ( Web aApplication Firewall )
+- Fault Injection Simulator ( chaos engneering ) 
 ## Deployment
  1. Clone the repository:
    
