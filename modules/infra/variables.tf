@@ -567,7 +567,73 @@ variable "any_endpoint_identifier" {
   default     = "any"
 }
 
+# fis 
 
+variable "waf_name" {
+  description = "Name of the WAF Web ACL"
+  type        = string
+  default     = "cloudfront-waf-sql-xss-rate"
+}
+
+variable "waf_description" {
+  description = "Description of the WAF Web ACL"
+  type        = string
+  default     = "WAF for CloudFront with SQL Injection, XSS, and Rate Limiting Rules"
+}
+
+variable "waf_sql_injection_metric_name" {
+  description = "Metric name for the SQL Injection prevention rule"
+  type        = string
+  default     = "SQL-Injection-Prevention"
+}
+
+variable "waf_xss_prevention_metric_name" {
+  description = "Metric name for the XSS prevention rule"
+  type        = string
+  default     = "XSS-Prevention"
+}
+
+variable "waf_rate_limit_metric_name" {
+  description = "Metric name for the rate-based rule"
+  type        = string
+  default     = "RateLimit"
+}
+
+variable "waf_cloudfront_metric_name" {
+  description = "Metric name for the overall WAF Web ACL"
+  type        = string
+  default     = "CloudFrontWAF"
+}
+
+variable "waf_rate_limit_threshold" {
+  description = "Rate limit threshold for the rate-based rule"
+  type        = number
+  default     = 1000
+}
+
+variable "fis_role_name" {
+  description = "Name of the IAM role for AWS FIS"
+  type        = string
+  default     = "fis_test"
+}
+
+variable "fis_experiment_description" {
+  description = "Description of the AWS FIS experiment template"
+  type        = string
+  default     = "Disk fill experiment using AWS FIS"
+}
+
+variable "fis_disk_fill_duration" {
+  description = "Duration of the disk fill experiment in seconds"
+  type        = number
+  default     = 600
+}
+
+variable "fis_disk_fill_percentage" {
+  description = "Percentage of disk space to fill during the experiment"
+  type        = number
+  default     = 90
+}
 
 
 
